@@ -1,21 +1,49 @@
 aid: egenesis
 name: eGenesis
-description: 'eGenesis is a company surfaced as a portfolio company of lux-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: biotech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'eGenesis is a biotechnology company working at the intersection of genome
+  engineering and transplantation to make organ transplants accessible to all. Using
+  a multiplex CRISPR gene-editing and genome-engineering platform, eGenesis engineers
+  porcine (pig) donor organs that are immunologically and molecularly compatible with
+  human recipients and free of porcine endogenous retroviruses, aiming to end waitlist
+  mortality by removing donor-organ scarcity as a barrier to transplantation. Its
+  pipeline spans kidney, liver, and heart xenotransplantation programs; the U.S. FDA
+  has cleared its IND for EGEN-2784, a genetically engineered porcine kidney, to begin
+  a Phase 1/2/3 trial in patients with end-stage kidney disease. eGenesis is a private,
+  venture-backed company (investors include Lux Capital). This API Evangelist profile
+  tracks the company for network discovery; eGenesis publishes a corporate and scientific
+  web presence but does not currently expose a public developer API.'
 url: https://raw.githubusercontent.com/api-evangelist/egenesis/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://egenesisbio.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Biotech
+- Xenotransplantation
+- Gene Editing
+- Genome Engineering
+- Organ Transplantation
+- Life Sciences
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/egenesis-domain-security.yml
 - type: Website
-  url: https://egenesis.com
+  url: https://egenesisbio.com
+- type: About
+  url: https://egenesisbio.com/about
+- type: Blog
+  url: https://egenesisbio.com/news-media
+- type: Support
+  url: https://egenesisbio.com/contact
+- type: TermsOfService
+  url: https://egenesisbio.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://egenesisbio.com/privacy-policy
+- type: X-Science
+  url: https://egenesisbio.com/science
+- type: X-Pipeline
+  url: https://egenesisbio.com/pipeline
+- type: X-Careers
+  url: https://egenesisbio.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/egenesisbio/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
