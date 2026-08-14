@@ -1,17 +1,15 @@
 aid: egenesis
 name: eGenesis
-description: 'eGenesis is a biotechnology company working at the intersection of genome
-  engineering and transplantation to make organ transplants accessible to all. Using
-  a multiplex CRISPR gene-editing and genome-engineering platform, eGenesis engineers
-  porcine (pig) donor organs that are immunologically and molecularly compatible with
-  human recipients and free of porcine endogenous retroviruses, aiming to end waitlist
-  mortality by removing donor-organ scarcity as a barrier to transplantation. Its
-  pipeline spans kidney, liver, and heart xenotransplantation programs; the U.S. FDA
-  has cleared its IND for EGEN-2784, a genetically engineered porcine kidney, to begin
-  a Phase 1/2/3 trial in patients with end-stage kidney disease. eGenesis is a private,
-  venture-backed company (investors include Lux Capital). This API Evangelist profile
-  tracks the company for network discovery; eGenesis publishes a corporate and scientific
-  web presence but does not currently expose a public developer API.'
+description: eGenesis is a biotechnology company working at the intersection of genome engineering and
+  transplantation to make organ transplants accessible to all. Using a multiplex CRISPR gene-editing and
+  genome-engineering platform, eGenesis engineers porcine (pig) donor organs that are immunologically
+  and molecularly compatible with human recipients and free of porcine endogenous retroviruses, aiming
+  to end waitlist mortality by removing donor-organ scarcity as a barrier to transplantation. Its pipeline
+  spans kidney, liver, and heart xenotransplantation programs; the U.S. FDA has cleared its IND for EGEN-2784,
+  a genetically engineered porcine kidney, to begin a Phase 1/2/3 trial in patients with end-stage kidney
+  disease. eGenesis is a private, venture-backed company (investors include Lux Capital). This API Evangelist
+  profile tracks the company for network discovery; eGenesis publishes a corporate and scientific web
+  presence but does not currently expose a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/egenesis/refs/heads/main/apis.yml
 accessModel:
   pricing: unknown
@@ -73,6 +71,12 @@ common:
   url: https://egenesisbio.com/careers
 - type: LinkedIn
   url: https://www.linkedin.com/company/egenesisbio/
+- type: DomainSecurity
+  url: security/egenesis-domain-security.yml
+- type: Website
+  url: https://www.egenesisbio.com/
+- type: DomainSecurity
+  url: security/egenesis-domain-security.yml
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
