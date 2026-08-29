@@ -11,6 +11,17 @@ description: eGenesis is a biotechnology company working at the intersection of 
   profile tracks the company for network discovery; eGenesis publishes a corporate and scientific web
   presence but does not currently expose a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/egenesis/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
